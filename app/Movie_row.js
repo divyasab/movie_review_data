@@ -1,17 +1,19 @@
-export default function Movie_row(){
+export default function Movie_row(props){
     return(
         <div className="Movie_row1">
             <div className="image_logo">
+                <img src={props.data.Movie_image}/>
             </div>
             <div className="Movie_details">
-                <h2></h2>
-                <p></p>
-                <h3></h3>
-                <p></p>
+                <h2>{props.data.Movie_name}</h2>
+                <p>{props.data.Movie_year} | {props.data.duration} | {props.data.genre} </p>
+                <h3> Description</h3>
+                <p>{props.data.description}</p>
             </div>
         </div>
             
     );
 };
+            
             
 
