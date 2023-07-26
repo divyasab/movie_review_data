@@ -1,3 +1,4 @@
+import Action_row from "./Action_row.js"
 export default function Movie_row(props){
     return(
         <div className="Movie_row1">
@@ -9,6 +10,8 @@ export default function Movie_row(props){
                 <p>{props.data.Movie_year} | {props.data.duration} | {props.data.genre} </p>
                 <h3> Description</h3>
                 <p>{props.data.description}</p>
+                <Action_row {...props}/>
+
             </div>
         </div>
             
