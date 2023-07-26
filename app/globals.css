@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color:black;
+    color:white;
+}
+.Header{
+    height:28px;
+}
+.Header1{
+    height:72px;
+}
+.col{
+}
+.col0{
+    float:left;
+    width:72px;
+    height:72px;
+    margin-left:80px;
+}
+.col1{
+    float:left;
+    width:160px;
+    margin-left:10px;
+    height:72px;
+}
+.col2{
+    float:right;
+    margin:14px;
+    margin-right:112px;
+    line-height:2px;
+}
+.col3{
+    float:right;
+    line-height:1px;
+    margin:14px;
+}
+.Header2{
+    height:28px;
+    border-bottom: 1px solid red;
+}
+.Header3{
+    height:40px;
+}
+.Header4{
+    line-height:25px;
+    margin-bottom:30px;
+}
+.col4{
+    width:216px;
+    height:30px;
+}
+.col5{
+    width:64px;
+    height:30px;
+    margin-left:311px;
+}
+.Movie_row1{
+    border-bottom:solid 1px ;
+    width:960px;
+    height:277px;
+    margin:auto;
+    margin-bottom:20px;
+}
+.image_logo{
+    border:solid 1px #5e5e75;
+    float:left;
+    width:200px;
+    height:252px;
+
+}
+.Movie_details{
+    float:left;
+    margin-left:28px;
+    width:728px;
+    height:252px;
+    font-family:kanti;
+}
+.container{
+    height:200px;
+    width:728px;
+    border:solid 1px red;
+}
+.Action_row{
+    width:728px;
+    height:35px;
+}
+.like_logo{
+    float:left;
+    width:32px;
+    height:32px;
+}
+.Rating{
+    float:left;
+    width:40px;
+    height:40px;
+    margin-left:20px;
+}
+.score{
+    margin:8px 10px 0px 10px;
+
+}
+.dislike{
+    float:left;
+    width:32px;
+    height:32px;
+}
+.delete{
+    float:right;
+    width:48px;
+    height:41px;
+}
+.delete_img{
+    width:100%;
+    height:100%;
+}
+Footer1{
+    border:solid 1px red;
+    margin-top:150px;
+    margin-left:156px;
+    width:386px;
+    height:30px;
+}
+.Footer_col1{
+    border:solid 1px blue;
+    margin-left:156px;
+    width:228px;
+    height:30px;
+
+}
+.Footer2{
+    border:solid 1px red;
+    margin-top:10px;
+    width:726px;
+    margin-left:160px;
+    height:16px;
+}
+.Footer_col2{
+    border:solid 1px blue;
+    margin-left:153px;
+    width:569px;
+    height:16px;
+}
+.Footer3{
+    border:solid 1px red;
+    margin-top:10px;
+    width:960px;
+    height:1247px;
+    margin:auto;
+}
