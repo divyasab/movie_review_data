@@ -1,15 +1,26 @@
+"use client"
+import {useState} from 'react';
 
 const Action_row = () => {
+    const [Rating, setRating] = useState(0);
+    const handlelike = () => {
+        setRating(Rating + 1);
+    };
+    const handledislike = () => {
+        setRating(Rating - 1);
+    };
+
     return(
         <div className="Action_row1">
                 <div className="like_logo">
-                    <img src="like.png"/>
+                    <button onClick={handlelike}><img src="like.png"/></button>
                 </div>
                 <div className="Rating">
-                    <h2 className="score"></h2>
+                    <h2 className="score">{Rating}</h2>
                 </div>
                 <div className="dislike">
-                    <img src="dislike.png"/>
+                    <button onClick={handledislike}><img src="dislike.png"/></button>
+
                 </div>
                 
             </div>
