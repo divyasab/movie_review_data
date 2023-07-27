@@ -101,6 +101,10 @@ body {
     margin:8px 10px 0px 10px;
 
 }
+button{
+    background:none;
+    border:none;
+}
 .dislike{
     float:left;
     width:32px;
@@ -115,37 +119,5 @@ body {
     width:100%;
     height:100%;
 }
-Footer1{
-    border:solid 1px red;
-    margin-top:150px;
-    margin-left:156px;
-    width:386px;
-    height:30px;
-}
-.Footer_col1{
-    border:solid 1px blue;
-    margin-left:156px;
-    width:228px;
-    height:30px;
 
-}
-.Footer2{
-    border:solid 1px red;
-    margin-top:10px;
-    width:726px;
-    margin-left:160px;
-    height:16px;
-}
-.Footer_col2{
-    border:solid 1px blue;
-    margin-left:153px;
-    width:569px;
-    height:16px;
-}
-.Footer3{
-    border:solid 1px red;
-    margin-top:10px;
-    width:960px;
-    height:1247px;
-    margin:auto;
-}
+

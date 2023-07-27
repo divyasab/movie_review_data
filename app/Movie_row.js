@@ -1,4 +1,5 @@
 import Action_row from "./Action_row.js"
+import Delete from "./Delete.js";
 export default function Movie_row(props){
     return(
         <div className="Movie_row1">
@@ -11,7 +12,9 @@ export default function Movie_row(props){
                 <h3> Description</h3>
                 <p>{props.data.description}</p>
                 <Action_row {...props}/>
-
+                <Delete
+                        {...props}
+                />
             </div>
         </div>
             
