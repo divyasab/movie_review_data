@@ -4,7 +4,8 @@ import Header from "./Header.js";
 import Movie_row from "./Movie_row.js";
 import Movie_List from "./Movie_list.js";
 import "./globals.css";
-
+import Add_movie from "./Add_movie.js";
+import Add_form from "./Add_form.js";
 const box = () => {
     const [movies,setMovies]=useState(Movie_List);
     function handleDelete(Movie_name){
@@ -36,6 +37,8 @@ const box = () => {
                     dislike_count={dislike_count}
                 />
             ))}
+            <Add_movie/>
+            <Add_form/>
  
         </>
 

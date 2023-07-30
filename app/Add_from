@@ -1,0 +1,9 @@
+const Add_from = () => {
+    return(
+        <>
+            <div class="add_from">
+            </div>
+        </>
+    )
+}
+export default Add_movie;;
